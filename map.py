@@ -139,8 +139,8 @@ class Map:
             
 
     def update_visualize(self): 
-        self.robot_plot.set_xdata(self.robot.pos[0])
-        self.robot_plot.set_ydata(self.robot.pos[1])
+        self.robot_plot.set_xdata([self.robot.pos[0]])
+        self.robot_plot.set_ydata([self.robot.pos[1]])
         # self.escape_plot.set_xdata(self.escape_goal[0])
         # self.escape_plot.set_ydata(self.escape_goal[1])
         j = 0
