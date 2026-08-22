@@ -77,5 +77,5 @@ for i in tqdm(range(50)):
 
 data = {"success_rate": success_rate, "time": finish_time}
 print(data)
-file = open('/home/chen-lab/zhefeng/motion_planning_maze/sim_result.json', 'w+')
-json.dump(data, file)
+with open("sim_result.json", "w") as file:
+    json.dump(data, file)
