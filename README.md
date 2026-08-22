@@ -89,8 +89,6 @@ To run the repeated simulation experiment:
 python multiple_simulations.py
 ```
 
-Note that `multiple_simulations.py` currently contains a hard-coded output path for `sim_result.json`; change this path before running it on a different machine.
-
 ## Limitations
 
 This repository is a small qualification-exam prototype rather than a general-purpose motion planning framework.
